@@ -77,7 +77,17 @@ Click the command tab
 Click the checkbox for run a custom command instead of my shell
 Type "zsh" in the input box next to "Custom Command:"
 Nothing will have seemed to change, but you have to close your existing terminal and restart it to see the changes
-Now type: echo $SHELL
+Now you have ZSH
+
+To get powerlevel10k working properly, you must navigate in a browse in Kali to:
+https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+Then download all 4 ttf font files
+They should be in downloads
+Click the Home folder on your kali desktop
+Click Downloads
+Double click each of the 4 files and 
+
+
 
 
 
