@@ -61,8 +61,30 @@ VOILA! Kali with the GUI working on Windows 10 using WSL2!
 For extra fun (if you have the storage space) go ahead and run: sudo apt install kali-linux-large
 This will install the large package of kali with a lot of the commonly used tools to beef up your distro
 
-Happy Tweaking!
+If you also want ZSH in Kali, go ahead and download gnome terminal:
+sudo apt install gnome-terminal
 
+Then open settings manager in kali
+Navigate to Default Applications
+Click the utilities tab
+Change the default terminal emulator to GNOME Terminal
+
+Close your existing terminal, then open terminal again
+Enter: sudo apt-get install zsh
+Then: chsh -s $(which zsh)
+Right click in the terminal and select Preferences from the menu
+Click the command tab 
+Click the checkbox for run a custom command instead of my shell
+Type "zsh" in the input box next to "Custom Command:"
+Nothing will have seemed to change, but you have to close your existing terminal and restart it to see the changes
+Now type: echo $SHELL
+
+
+
+
+
+
+Happy Tweaking!
 
 
 
