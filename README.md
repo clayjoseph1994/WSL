@@ -40,7 +40,7 @@ Copy the kali-menu.png icon across to your windows picture directory and add the
 },
   
 Save this config file then check the dropdown in Windows Terminal and you should see "Win-KeX" as an option.
-CLick it then a prompt will come up requesting admin permission. Allow this, then follow prompts in temrinal screen:
+CLick it then a prompt will come up requesting admin permission. Allow this, then follow prompts in terminal screen:
 -Enter and verify a password
 -Decide whether you want a view-only password
 
