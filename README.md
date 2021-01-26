@@ -12,21 +12,21 @@ Add WinKex to have Kali GUI over VNC:
 https://www.kali.org/docs/wsl/win-kex/
 
 In the Kali WSL2 instance, run:
-sudo apt update && sudo apt install kali-win-kex
+`sudo apt update && sudo apt install kali-win-kex`
 
 Win-KeX supports three modes:
 1. To start Win-KeX in Window mode with sound support, run:
-kex --win -s
+`kex --win -s`
 2. To start Win-KeX in Enhanced Session Mode with sound support and arm workaround, run:
-kex --esm --ip -s
+`kex --esm --ip -s`
 3. To start Win-KeX in Seamless mode with sound support, run:
-kex --sl -s
+`kex --sl -s`
 
 
 
 ADD WINDOWS TERMINAL SHORTCUT-------
 Advanced Win-KeX in window mode with sound - Kali icon and start in kali home directory:
-Copy the kali-menu.png icon across to your windows picture directory and add the icon and start directory to your WT config (From Windows Terminal, ctrl + ,:
+Copy the kali-menu.png icon across to your windows picture directory and add the icon and start directory to your WT config (From Windows Terminal, `ctrl + ,`:
 ```
 {
         "guid": "{55ca431a-3a87-5fb3-83cd-11ececc031d2}",
@@ -49,7 +49,7 @@ Now I see a prompt saying "Unable to contact settings server- Failed to execute 
 
 Thank god for google. I found this link: https://www.reddit.com/r/Kalilinux/comments/jt7k6c/kali_linux_gui_on_wsl2_error_when_using_kaliwinkex/
 A user with the name lgeorgiadis stated that running a command made it work for them. Go back to your kali WSL2 window and type: 
-* sudo apt-get install dbus-x11
+* `sudo apt-get install dbus-x11`
 * Enter your password
 * Let that finish downloading
 * Restart your KeX session in Windows Terminal
@@ -57,19 +57,19 @@ A user with the name lgeorgiadis stated that running a command made it work for 
 **VOILA! Kali with the GUI working on Windows 10 using WSL2!
 
 For extra fun (if you have the storage space) go ahead and run: 
-* sudo apt install kali-linux-large
+* `sudo apt install kali-linux-large`
 This will install the large package of kali with a lot of the commonly used tools to beef up your distro
 
 If you also want ZSH in Kali, go ahead and download gnome terminal:
-- sudo apt install gnome-terminal
+- `sudo apt install gnome-terminal`
 
 Search for and open Default Applications
 - Click the utilities tab
 - Change the default terminal emulator to GNOME Terminal
 
 Close your existing terminal, then open terminal again
-* Enter: sudo apt-get install zsh
-* Then: chsh -s $(which zsh)
+* Enter: `sudo apt-get install zsh`
+* Then: `chsh -s $(which zsh)`
 Right click in the terminal and select Preferences from the menu
 * Click the command tab 
 * Click the checkbox for run a custom command instead of my shell
@@ -82,12 +82,14 @@ https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel1
 * Then download all 4 ttf font files
 * They should be in downloads
 Use this command to change into fonts directory in Kali:
-* cd /usr/share/fonts
+`* cd /usr/share/fonts`
 Copy the 4 files from Downloads to the fonts directory using these 4 commands:
+```
 * sudo cp ~/Downloads/MesloLGS\ NF\ Bold.ttf .
 * sudo cp ~/Downloads/MesloLGS\ NF\ Bold\ Italic.ttf .
 * sudo cp ~/Downloads/MesloLGS\ NF\ Italic.ttf .
 * sudo cp ~/Downloads/MesloLGS\ NF\ Regular.ttf .
+```
 
 **And now for me the fonts allow the icons to work as expected in Terminal Emulator (GNOME Terminal)!
 
