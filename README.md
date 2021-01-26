@@ -65,17 +65,17 @@ If you also want ZSH in Kali, go ahead and download gnome terminal:
 -sudo apt install gnome-terminal
 
 Search for and open Default Applications
--Click the utilities tab
--Change the default terminal emulator to GNOME Terminal
+- Click the utilities tab
+- Change the default terminal emulator to GNOME Terminal
 
 Close your existing terminal, then open terminal again
-*Enter: sudo apt-get install zsh
-*Then: chsh -s $(which zsh)
+* Enter: sudo apt-get install zsh
+* Then: chsh -s $(which zsh)
 Right click in the terminal and select Preferences from the menu
-*Click the command tab 
-*Click the checkbox for run a custom command instead of my shell
-*Type "zsh" in the input box next to "Custom Command:"
-*Nothing will have seemed to change, but you have to close your existing terminal and restart it to see the changes
+* Click the command tab 
+* Click the checkbox for run a custom command instead of my shell
+* Type "zsh" in the input box next to "Custom Command:"
+* Nothing will have seemed to change, but you have to close your existing terminal and restart it to see the changes
 Now you have ZSH
 
 To get powerlevel10k working properly, you must navigate in a browser in Kali to:
@@ -85,10 +85,10 @@ They should be in downloads
 Use this command to change into fonts directory in Kali:
 cd /usr/share/fonts
 Copy the 4 files from Downloads to the fonts directory using these 4 commands:
-*sudo cp ~/Downloads/MesloLGS\ NF\ Bold.ttf .
-*sudo cp ~/Downloads/MesloLGS\ NF\ Bold\ Italic.ttf .
-*sudo cp ~/Downloads/MesloLGS\ NF\ Italic.ttf .
-*sudo cp ~/Downloads/MesloLGS\ NF\ Regular.ttf .
+* sudo cp ~/Downloads/MesloLGS\ NF\ Bold.ttf .
+* sudo cp ~/Downloads/MesloLGS\ NF\ Bold\ Italic.ttf .
+* sudo cp ~/Downloads/MesloLGS\ NF\ Italic.ttf .
+* sudo cp ~/Downloads/MesloLGS\ NF\ Regular.ttf .
 
 And now for me the fonts allow the icons to work as expected in Terminal Emulator (GNOME Terminal)!
 
