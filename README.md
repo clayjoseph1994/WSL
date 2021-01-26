@@ -64,8 +64,7 @@ This will install the large package of kali with a lot of the commonly used tool
 If you also want ZSH in Kali, go ahead and download gnome terminal:
 sudo apt install gnome-terminal
 
-Then open settings manager in kali
-Navigate to Default Applications
+Search for and open Default Applications
 Click the utilities tab
 Change the default terminal emulator to GNOME Terminal
 
@@ -79,20 +78,19 @@ Type "zsh" in the input box next to "Custom Command:"
 Nothing will have seemed to change, but you have to close your existing terminal and restart it to see the changes
 Now you have ZSH
 
-To get powerlevel10k working properly, you must navigate in a browse in Kali to:
+To get powerlevel10k working properly, you must navigate in a browser in Kali to:
 https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
 Then download all 4 ttf font files
 They should be in downloads
-Click the Home folder on your kali desktop
-Click Downloads
-Double click each of the 4 files and 
+Use this command to change into fonts directory in Kali:
+cd /usr/share/fonts
+Copy the 4 files from Downloads to the fonts directory using these 4 commands:
+sudo cp ~/Downloads/MesloLGS\ NF\ Bold.ttf .
+sudo cp ~/Downloads/MesloLGS\ NF\ Bold\ Italic.ttf .
+sudo cp ~/Downloads/MesloLGS\ NF\ Italic.ttf .
+sudo cp ~/Downloads/MesloLGS\ NF\ Regular.ttf .
 
-
-
-
-
-
-
+And now for me the fonts allow the icons to work as expected in Terminal Emulator (GNOME Terminal)!
 
 Happy Tweaking!
 
