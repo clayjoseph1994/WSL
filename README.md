@@ -24,7 +24,7 @@ Win-KeX supports three modes:
 
 
 
-ADD WINDOWS TERMINAL SHORTCUT-------
+**ADD WINDOWS TERMINAL SHORTCUT-------**
 Advanced Win-KeX in window mode with sound - Kali icon and start in kali home directory:
 Copy the kali-menu.png icon across to your windows picture directory and add the icon and start directory to your WT config (From Windows Terminal, `ctrl + ,`:
 ```
@@ -54,7 +54,7 @@ A user with the name lgeorgiadis stated that running a command made it work for 
 * Let that finish downloading
 * Restart your KeX session in Windows Terminal
 
-**VOILA! Kali with the GUI working on Windows 10 using WSL2!
+**VOILA! Kali with the GUI working on Windows 10 using WSL2!**
 
 For extra fun (if you have the storage space) go ahead and run: 
 * `sudo apt install kali-linux-large`
@@ -91,7 +91,7 @@ Copy the 4 files from Downloads to the fonts directory using these 4 commands:
 * sudo cp ~/Downloads/MesloLGS\ NF\ Regular.ttf .
 ```
 
-**And now for me the fonts allow the icons to work as expected in Terminal Emulator (GNOME Terminal)!
+**And now for me the fonts allow the icons to work as expected in Terminal Emulator (GNOME Terminal)!**
 
 Happy Tweaking!
 
