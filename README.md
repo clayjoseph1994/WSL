@@ -27,8 +27,8 @@ kex --sl -s
 ADD WINDOWS TERMINAL SHORTCUT-------
 Advanced Win-KeX in window mode with sound - Kali icon and start in kali home directory:
 Copy the kali-menu.png icon across to your windows picture directory and add the icon and start directory to your WT config (From Windows Terminal, ctrl + ,:
-
-'{
+'''
+{
         "guid": "{55ca431a-3a87-5fb3-83cd-11ececc031d2}",
         "hidden": false,
       "icon": "file:///c:/users/<windows user>/pictures/icons/kali-menu.png",
@@ -36,7 +36,7 @@ Copy the kali-menu.png icon across to your windows picture directory and add the
         "commandline": "wsl -d kali-linux kex --wtstart -s",
       "startingDirectory" : "//wsl$/kali-linux/home/<kali user>"
 },
-  '
+'''
 Save this config file then check the dropdown in Windows Terminal and you should see "Win-KeX" as an option.
 CLick it then a prompt will come up requesting admin permission. Allow this, then follow prompts in terminal screen:
 - Enter and verify a password
